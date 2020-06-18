@@ -1,0 +1,8 @@
+prefix=/home/dsingh/Documents/OntoSim/workspace/install
+
+Name: ros_nodes
+Description: Description of ros_nodes
+Version: 0.0.0
+Cflags: -I/home/dsingh/Documents/OntoSim/workspace/install/include
+Libs: -L/home/dsingh/Documents/OntoSim/workspace/install/lib 
+Requires: rospy std_msgs message_runtime

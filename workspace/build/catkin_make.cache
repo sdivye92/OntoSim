@@ -1,0 +1,2 @@
+ros_nodes
+-DCATKIN_DEVEL_PREFIX=/home/dsingh/Documents/OntoSim/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/dsingh/Documents/OntoSim/workspace/install -G Unix Makefiles

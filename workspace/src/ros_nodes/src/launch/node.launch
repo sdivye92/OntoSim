@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <!--arg name="world" default="$(find model_editor_models)/box.world"/>
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="gui" default="true"/>
+  <arg name="debug" default="false"/-->
+  
+  <!--include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="../world/pendulum.world"/>
+    <arg name="paused" value="true"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="recording" value="false"/>
+    <arg name="debug" value="false"/>
+  </include-->
+
+  <node pkg="ros_nodes" type="Bot1_node" name="bot1"  output="screen" ns="bot1">
+  </node>
+  <node pkg="ros_nodes" type="Bot2_node" name="bot2"  output="screen" ns="bot2">
+  </node>
+  <node pkg="ros_nodes" type="Bot3_node" name="bot3"  output="screen" ns="bot3">
+  </node>
+  <node pkg="ros_nodes" type="Bot4_node" name="bot4"  output="screen" ns="bot4">
+  </node>
+
+</launch>
